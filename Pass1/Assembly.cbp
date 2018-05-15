@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Assembly" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Assembly" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Assembly" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/AsciiCode.h" />
+		<Unit filename="include/Controller.h" />
+		<Unit filename="include/Converters.h" />
+		<Unit filename="include/DirectiveTable.h" />
+		<Unit filename="include/GroupTable.h" />
+		<Unit filename="include/InstructionLine.h" />
+		<Unit filename="include/LitTable.h" />
+		<Unit filename="include/OpValidator.h" />
+		<Unit filename="include/OperandSizeValidator.h" />
+		<Unit filename="include/OperandValidator.h" />
+		<Unit filename="include/OperationInfomation.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/OperationTable.h" />
+		<Unit filename="include/SymbolTable.h" />
+		<Unit filename="include/inOutFile.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/AsciiCode.cpp" />
+		<Unit filename="src/Controller.cpp" />
+		<Unit filename="src/Converters.cpp" />
+		<Unit filename="src/DirectiveTable.cpp" />
+		<Unit filename="src/GroupTable.cpp" />
+		<Unit filename="src/InstructionLine.cpp" />
+		<Unit filename="src/LitTable.cpp" />
+		<Unit filename="src/OpValidator.cpp" />
+		<Unit filename="src/OperandSizeValidator.cpp" />
+		<Unit filename="src/OperandValidator.cpp" />
+		<Unit filename="src/OperationTable.cpp" />
+		<Unit filename="src/SymbolTable.cpp" />
+		<Unit filename="src/inOutFile.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

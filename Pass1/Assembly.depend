@@ -1,0 +1,167 @@
+# depslib dependency file v1.0
+1525038420 source:f:\csed\2nd sem\system programming\assemblersicxe\assembly\main.cpp
+	<iostream>
+	<InstructionLine.h>
+	<OperationTable.h>
+	<Controller.h>
+	<iostream>
+	<map>
+	<algorithm>
+	<OperandValidator.h>
+	<OpValidator.h>
+
+1525038420 f:\csed\2nd sem\system programming\assemblersicxe\assembly\include\instructionline.h
+	<string>
+
+1524843244 source:f:\csed\2nd sem\system programming\assemblersicxe\assembly\src\asciicode.cpp
+	"AsciiCode.h"
+
+1524841559 f:\csed\2nd sem\system programming\assemblersicxe\assembly\include\asciicode.h
+
+1525038317 source:f:\csed\2nd sem\system programming\assemblersicxe\assembly\src\converters.cpp
+	"Converters.h"
+	<iostream>
+	<string.h>
+	<sstream>
+	<iomanip>
+
+1525038317 f:\csed\2nd sem\system programming\assemblersicxe\assembly\include\converters.h
+	<iostream>
+
+1524964980 source:f:\csed\2nd sem\system programming\assemblersicxe\assembly\src\directivetable.cpp
+	"DirectiveTable.h"
+	<iostream>
+	<algorithm>
+
+1524964942 f:\csed\2nd sem\system programming\assemblersicxe\assembly\include\directivetable.h
+	<vector>
+	<string>
+	<algorithm>
+
+1524841164 source:f:\csed\2nd sem\system programming\assemblersicxe\assembly\src\grouptable.cpp
+	"GroupTable.h"
+	<algorithm>
+	<iostream>
+	<map>
+
+1524841734 f:\csed\2nd sem\system programming\assemblersicxe\assembly\include\grouptable.h
+	<algorithm>
+	<iostream>
+	<map>
+
+1525040410 source:f:\csed\2nd sem\system programming\assemblersicxe\assembly\src\inoutfile.cpp
+	"inOutFile.h"
+	<iostream>
+	"fstream"
+	<vector>
+	"Converters.h"
+	<iomanip>
+
+1525040410 f:\csed\2nd sem\system programming\assemblersicxe\assembly\include\inoutfile.h
+	<vector>
+	<iostream>
+
+1525038421 source:f:\csed\2nd sem\system programming\assemblersicxe\assembly\src\instructionline.cpp
+	"InstructionLine.h"
+	<regex>
+	<iostream>
+
+1525040410 source:f:\csed\2nd sem\system programming\assemblersicxe\assembly\src\littable.cpp
+	"LitTable.h"
+	<iostream>
+	<map>
+	<unordered_map>
+	<algorithm>
+	<bitset>
+	"Converters.h"
+	"inOutFile.h"
+
+1525040410 f:\csed\2nd sem\system programming\assemblersicxe\assembly\include\littable.h
+	<iostream>
+	<map>
+	<algorithm>
+	<unordered_map>
+	"Converters.h"
+	"inOutFile.h"
+
+1525040410 source:f:\csed\2nd sem\system programming\assemblersicxe\assembly\src\operandvalidator.cpp
+	<OperandValidator.h>
+	<string>
+	<iostream>
+	<stdio.h>
+	<regex>
+
+1524962831 f:\csed\2nd sem\system programming\assemblersicxe\assembly\include\operandvalidator.h
+	<string>
+
+1524958771 source:f:\csed\2nd sem\system programming\assemblersicxe\assembly\src\operationtable.cpp
+	<iostream>
+	"OperationTable.h"
+
+1524958957 f:\csed\2nd sem\system programming\assemblersicxe\assembly\include\operationtable.h
+	"OperationInfomation.h"
+	<string>
+	<map>
+
+1524958808 f:\csed\2nd sem\system programming\assemblersicxe\assembly\include\operationinfomation.h
+	<vector>
+
+1525038317 source:f:\csed\2nd sem\system programming\assemblersicxe\assembly\src\symboltable.cpp
+	"SymbolTable.h"
+	<iostream>
+	<map>
+	<algorithm>
+	<vector>
+	"Converters.h"
+	"inOutFile.h"
+
+1525038317 f:\csed\2nd sem\system programming\assemblersicxe\assembly\include\symboltable.h
+	<algorithm>
+	<iostream>
+	<map>
+	"inOutFile.h"
+
+1524966356 f:\csed\2nd sem\system programming\assemblersicxe\assembly\include\controller.h
+	<vector>
+	<inOutFile.h>
+	<LitTable.h>
+
+1525041626 source:f:\csed\2nd sem\system programming\assemblersicxe\assembly\src\controller.cpp
+	<Controller.h>
+	<iostream>
+	<inOutFile.h>
+	<InstructionLine.h>
+	<OperationTable.h>
+	<OperationTable.h>
+	<DirectiveTable.h>
+	<vector>
+	<OperandValidator.h>
+	<SymbolTable.h>
+	<iomanip>
+	<locale>
+	<sstream>
+	<string>
+
+1524948837 source:f:\csed\2nd sem\system programming\assemblersicxe\assembly\src\operandsizevalidator.cpp
+	"OperandSizeValidator.h"
+	<iostream>
+	<vector>
+	<SymbolTable.h>
+	<iomanip>
+	<locale>
+	<sstream>
+	<string>
+
+1524948559 f:\csed\2nd sem\system programming\assemblersicxe\assembly\include\operandsizevalidator.h
+	<string>
+
+1524962842 source:f:\csed\2nd sem\system programming\assemblersicxe\assembly\src\opvalidator.cpp
+	"OpValidator.h"
+	<string>
+	<iostream>
+	<stdio.h>
+	<regex>
+
+1524962835 f:\csed\2nd sem\system programming\assemblersicxe\assembly\include\opvalidator.h
+	<string>
+
